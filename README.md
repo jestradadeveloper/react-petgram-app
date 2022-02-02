@@ -1,7 +1,9 @@
-## curso-platzi-react-avanzado ⚛️
+## petagram-react-app ⚛️
 
-**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev
+**! These proyect is a practical work for an advanced react course !**
 
-**¡Sígueme en Twitch para streams sobre desarrollo web!** 👉 https://www.twitch.tv/midudev
+**! Follow me on Twitter!** 👉 https://twitter.com/ItriMakena
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+**! Contact me on LinkeIn!** 👉 https://www.linkedin.com/in/jose-maria-estrada-madera/
+
+Proyecto practico del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
