@@ -4,6 +4,8 @@
     "description": "Proyecto practico de React | Fuente, curso de React Avanzando de Miduddev en Platzi",
     "main": "index.js",
     "scripts": {
+        "vercel-build": "npm run build",
+        "lint": "standard",
         "dev": "webpack serve",
         "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +26,11 @@
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
         "babel-loader": "^8.2.3",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
         "html-webpack-plugin": "^5.5.0",
+        "prettier": "^2.5.1",
+        "standard": "^16.0.4",
         "webpack": "^5.68.0",
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.7.3"
@@ -32,5 +38,15 @@
     "dependencies": {
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
+    },
+    "standard": {
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
     }
 }
