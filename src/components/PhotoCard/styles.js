@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 import { fadeIn } from '../../styles/animation'
+
+export const Article = styled.article`
+  min-height: 200px;
+`
 export const ImageWrapper = styled.div`
   border-radius: 10px;
   margin: 10px 0;
@@ -29,7 +33,6 @@ export const Button = styled.button`
   cursor: pointer;
   display: flex;
   padding: 10px 20px;
-
   & svg {
     margin-right: 4px;
   }
