@@ -8,7 +8,8 @@ export const Anchor = styled.a`
   width: 75px;
 `
 export const Image = styled.img`
-  border: 1px solid #ddd;
+
+  background: linear-gradient(to right, #889BFF, #F912FF);
   box-shadow: 0px 10px 14px rgba(0,0,0,.2);
   border-radius: 50%;
   height: auto;
@@ -16,4 +17,5 @@ export const Image = styled.img`
   object-fit: cover;
   height: 75px;
   width: 75px;
+  padding:3px;
 `
