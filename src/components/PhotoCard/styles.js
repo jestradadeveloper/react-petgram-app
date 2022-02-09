@@ -22,12 +22,14 @@ export const Image = styled.img`
 `
 export const Button = styled.button`
   align-items: center;
+  background: linear-gradient(to right, #889BFF, #F912FF);
+  border:0;
   border-radius: 10px;
+  color: #fff;
   cursor: pointer;
   display: flex;
-  border:0;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px 20px;
+
   & svg {
     margin-right: 4px;
   }
