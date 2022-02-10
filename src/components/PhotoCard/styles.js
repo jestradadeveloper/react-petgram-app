@@ -26,13 +26,16 @@ export const Image = styled.img`
 `
 export const Button = styled.button`
   align-items: center;
-  background: linear-gradient(to right, #889BFF, #F912FF);
   border:0;
   border-radius: 10px;
-  color: #fff;
+  color: #889BFF;
+  background: #fff;
   cursor: pointer;
   display: flex;
+  justify-content: flex-end;
   padding: 10px 20px;
+  text-align: right;
+  width: 100%;
   & svg {
     margin-right: 4px;
   }
